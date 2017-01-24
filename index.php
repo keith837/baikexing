@@ -4,7 +4,7 @@
  * Some rights reserved：www.thinkcmf.comsshghgh
  */
 if (ini_get('magic_quotes_gpc')) {
-    $a=1;
+    $a=12;
 	function stripslashesRecursive(array $array){
 		foreach ($array as $k => $v) {
 			if (is_string($v)){
