@@ -1,9 +1,10 @@
 <?php
 /**
  * 入口文件
- * Some rights reserved：www.thinkcmf.com
+ * Some rights reserved：www.thinkcmf.comsshghgh
  */
 if (ini_get('magic_quotes_gpc')) {
+    $a=1;
 	function stripslashesRecursive(array $array){
 		foreach ($array as $k => $v) {
 			if (is_string($v)){
